@@ -26,9 +26,10 @@
                 
                 <div class="form-group">
                     {!! Form::label('password_confirmation', 'Confirmation') !!}
-                    {!! Form::password('name', ['class' => 'form-control']) !!}
+                    {!! Form::password('password_confirmation', ['class' => 'form-control']) !!}
                 </div>
                 
                 {!! Form::submit('sign up', ['class' => 'btn btn-primary btn-block']) !!}
             {!! Form::close() !!}
     </div>
+@endsection
