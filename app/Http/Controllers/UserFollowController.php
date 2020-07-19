@@ -58,7 +58,7 @@ class UserFollowController extends Controller
         //フォロー一覧ビューでそれらを表示
         return view('users.followers',[
             'user' => $user,    
-            'users' => $followers,
+            'microposts' => $followers,
         ]);
     }
 }
